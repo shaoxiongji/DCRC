@@ -1,4 +1,0 @@
-\addplot[green, mark=*] plot coordinates{ 
-( 0.1,  96.116) 
-( 0.2,  97.006) 
-( 0.3,  97.775) 

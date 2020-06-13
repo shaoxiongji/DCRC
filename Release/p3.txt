@@ -1,7 +1,0 @@
-\addplot[green, mark=*] plot coordinates{ 
-( 0.1,   0.000) 
-( 0.2,   0.005) 
-( 0.3,   0.007) 
-( 0.4,   0.020) 
-( 0.5,   0.040) 
-\addplot[orange, mark=o] plot coordinates{ 

@@ -1109,7 +1109,7 @@ void testTree() {
 int main()
 {
     cout << "Hello world!" << endl;
-	//_CrtSetBreakAlloc(150); //  设置 内存泄漏  断点，定位代码     在程序最开始使用
+	//_CrtSetBreakAlloc(150); 
 	db.setDim(DIM_LONG);
     db.read();
 
@@ -1139,7 +1139,7 @@ int main()
     }
     time_t t2 = time(0);
     printf("\n\nseconds = %d\n\n", (int)(t2 - t1));
-	//   _CrtDumpMemoryLeaks();//检测内存泄漏  在程序最后使用
+	//   _CrtDumpMemoryLeaks();
 
    /*
     int nSet;
